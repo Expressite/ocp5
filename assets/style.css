@@ -355,3 +355,8 @@ input[type="submit"] {
     width: 80%;
   }
 }
+
+.carousel-item img {
+  width: 1284px;
+  height: 594px;
+}
