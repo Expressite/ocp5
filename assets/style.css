@@ -69,7 +69,8 @@ body {
 }
 
 .picture img {
-  width: 100%;
+  width: 339px;
+  height: 340px;
 }
 #about-me {
   flex: 2;
@@ -357,6 +358,5 @@ input[type="submit"] {
 }
 
 .carousel-item img {
-  width: 1284px;
   height: 594px;
 }
