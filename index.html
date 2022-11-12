@@ -58,8 +58,27 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "website",
-        "name": "Nina Carducci, Photographe"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "Portail Free",
+            "inLanguage": "fr-FR",
+            "description": "La libert\u00e9 n&#039;a pas de prix"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "/#webpage",
+            "url": "/",
+            "name": "Infos Free et toute l&#039;actualit\u00e9 sur notre site - Portail Free",
+            "isPartOf": { "@id": "/#website" },
+            "inLanguage": "fr-FR",
+            "datePublished": "2018-07-30T13:53:28+00:00",
+            "dateModified": "2022-11-10T17:09:25+00:00",
+            "description": "Bienvenue sur le portail Free. Retrouvez toutes les infos Free d\u00e9di\u00e9es \u00e0 nos offres, \u00e0 nos produits, leur utilisation et bien plus encore."
+          }
+        ]
       }
     </script>
     <script src="./assets/maugallery.js"></script>
