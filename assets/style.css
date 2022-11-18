@@ -364,4 +364,5 @@ input[type="submit"] {
 
 .carousel-item img {
   height: 594px;
+  object-fit: cover;
 }
